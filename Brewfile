@@ -6,7 +6,7 @@ brew "ack"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
+brew "python@3.11"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Terminal bandwidth utilization tool
@@ -101,6 +101,8 @@ cask "google-chrome"
 cask "iterm2"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Reverse proxy, secure introspectable tunnels to localhost
 cask "ngrok"
 # VPN client for secure internet access and private browsing
