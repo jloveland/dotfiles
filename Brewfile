@@ -26,7 +26,7 @@ brew "cmake"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
 # Pack, ship and run any application as a lightweight container
-brew "docker"
+brew "docker", link: false
 # Collection of GNU find, xargs, and locate
 brew "findutils"
 # GNU awk utility
@@ -103,6 +103,8 @@ brew "wget"
 brew "zlib"
 # UNIX shell (command interpreter)
 brew "zsh"
+# App to build and share containerised applications and microservices
+cask "docker"
 # Free and open-source image editor
 cask "gimp"
 # Web browser
