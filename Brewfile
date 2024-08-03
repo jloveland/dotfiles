@@ -5,6 +5,12 @@ tap "homebrew/services"
 brew "ack"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
+# Library for command-line editing
+brew "readline"
+# Command-line interface for SQLite
+brew "sqlite"
+# General-purpose data compression with high compression ratio
+brew "xz"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Official Amazon AWS command-line interface
@@ -67,6 +73,10 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 # Alternative to pyenv for managing virtualenvs
 brew "pyenv-virtualenvwrapper"
+# Tool Command Language
+brew "tcl-tk"
+# Python interface to Tcl/Tk
+brew "python-tk@3.12"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
 # Install various Ruby versions and implementations
@@ -79,8 +89,6 @@ brew "speedtest-cli"
 brew "sqlmap"
 # Add a public key to a remote machine's authorized_keys file
 brew "ssh-copy-id"
-# Tool Command Language
-brew "tcl-tk"
 # Lightweight BitTorrent client
 brew "transmission-cli"
 # Display directories as trees (with optional color/HTML output)
@@ -91,6 +99,8 @@ brew "vim"
 brew "webkit2png"
 # Internet file retriever
 brew "wget"
+# General-purpose lossless data-compression library
+brew "zlib"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Free and open-source image editor
